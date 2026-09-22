@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_bd03e039cfa43870a49dad20b38027c6 {
+                #map_986da019e892e020376514683f9f2472 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -56,16 +56,16 @@
     <div style="position:fixed;z-index:9999;top:10px;left:50%;transform:translateX(-50%);background:rgba(255,255,255,.94);padding:8px 16px;border-radius:6px;box-shadow:0 1px 5px rgba(0,0,0,.35);font:700 16px Arial,sans-serif;color:#3d2a20;white-space:nowrap;">Clínicas de estética — Boca del Río vs Avicena</div>
     <div style="position:fixed;z-index:9999;bottom:22px;right:22px;background:white;padding:9px 12px;border:1px solid #bbb;border-radius:5px;box-shadow:0 1px 4px rgba(0,0,0,.25);font:12px Arial,sans-serif;line-height:1.7;"><strong>Competencia vs Avicena</strong><div><span style="display:inline-block;width:12px;height:12px;background:#A6633C;border-radius:50%;margin-right:6px;"></span>Avicena</div><div><span style="display:inline-block;width:12px;height:12px;background:#D73027;border-radius:50%;margin-right:6px;"></span>Overlap alto</div><div><span style="display:inline-block;width:12px;height:12px;background:#F28E2B;border-radius:50%;margin-right:6px;"></span>Overlap medio</div><div><span style="display:inline-block;width:12px;height:12px;background:#777777;border-radius:50%;margin-right:6px;"></span>Overlap bajo</div></div>
     
-            <div class="folium-map" id="map_bd03e039cfa43870a49dad20b38027c6" ></div>
+            <div class="folium-map" id="map_986da019e892e020376514683f9f2472" ></div>
         
 </body>
 <script>
     
     
-            var map_bd03e039cfa43870a49dad20b38027c6 = L.map(
-                "map_bd03e039cfa43870a49dad20b38027c6",
+            var map_986da019e892e020376514683f9f2472 = L.map(
+                "map_986da019e892e020376514683f9f2472",
                 {
-                    center: [19.1679278, -96.1204189],
+                    center: [19.1604868, -96.1200774],
                     crs: L.CRS.EPSG3857,
                     ...{
   "zoom": 14,
@@ -75,13 +75,13 @@
 
                 }
             );
-            L.control.scale().addTo(map_bd03e039cfa43870a49dad20b38027c6);
+            L.control.scale().addTo(map_986da019e892e020376514683f9f2472);
 
             
 
         
     
-            var tile_layer_8769a8b0eccb765b82cf9c23fbcc639b = L.tileLayer(
+            var tile_layer_68950231623ceaabb162ffb540a97e7b = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -98,33 +98,33 @@
             );
         
     
-            tile_layer_8769a8b0eccb765b82cf9c23fbcc639b.addTo(map_bd03e039cfa43870a49dad20b38027c6);
+            tile_layer_68950231623ceaabb162ffb540a97e7b.addTo(map_986da019e892e020376514683f9f2472);
         
     
-            var circle_marker_d96e0fc7a0f51f91e6539ff81bca5f07 = L.circleMarker(
-                [19.1679278, -96.1204189],
+            var circle_marker_2d68e3990146da2b82caf2ccc18fbdf7 = L.circleMarker(
+                [19.1604868, -96.1200774],
                 {"bubblingMouseEvents": true, "color": "#A6633C", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#A6633C", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 2}
-            ).addTo(map_bd03e039cfa43870a49dad20b38027c6);
+            ).addTo(map_986da019e892e020376514683f9f2472);
         
     
-        var popup_a68407faba2903f049ee7eed83121ffb = L.popup({
+        var popup_0a47c5ea87aa8c15fb3557be015e9bee = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_3aac3eef44b8e628284cf8529ca3b92c = $(`<div id="html_3aac3eef44b8e628284cf8529ca3b92c" style="width: 100.0%; height: 100.0%;"><strong>Clínica Avicena (tú)</strong><br>Antonio de Mendoza 113, Boca del Río, Veracruz, México<br><em>Avicena</em></div>`)[0];
-                popup_a68407faba2903f049ee7eed83121ffb.setContent(html_3aac3eef44b8e628284cf8529ca3b92c);
+                var html_d76d562bce16a32a8cc882883460ff9c = $(`<div id="html_d76d562bce16a32a8cc882883460ff9c" style="width: 100.0%; height: 100.0%;"><strong>Clínica Avicena (tú)</strong><br>Antonio de Mendoza 113, Colonia Revolución, Boca del Río, Veracruz, México<br><em>Avicena</em><br><small>Ubicación aproximada</small></div>`)[0];
+                popup_0a47c5ea87aa8c15fb3557be015e9bee.setContent(html_d76d562bce16a32a8cc882883460ff9c);
             
         
 
-        circle_marker_d96e0fc7a0f51f91e6539ff81bca5f07.bindPopup(popup_a68407faba2903f049ee7eed83121ffb)
+        circle_marker_2d68e3990146da2b82caf2ccc18fbdf7.bindPopup(popup_0a47c5ea87aa8c15fb3557be015e9bee)
         ;
 
         
     
     
-            circle_marker_d96e0fc7a0f51f91e6539ff81bca5f07.bindTooltip(
+            circle_marker_2d68e3990146da2b82caf2ccc18fbdf7.bindTooltip(
                 `<div>
                      Clínica Avicena (tú)
                  </div>`,
@@ -134,30 +134,30 @@
             );
         
     
-            var circle_marker_622b40407ea6e127a2896a8fa431d0f3 = L.circleMarker(
+            var circle_marker_d5f41067e7c3b6f3360d639812c9b2b4 = L.circleMarker(
                 [19.1451933, -96.1128493],
                 {"bubblingMouseEvents": true, "color": "#D73027", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#D73027", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
-            ).addTo(map_bd03e039cfa43870a49dad20b38027c6);
+            ).addTo(map_986da019e892e020376514683f9f2472);
         
     
-        var popup_f24ca28c221f10c5f18bf2650ccf3da3 = L.popup({
+        var popup_85e4b58b5617da1a8085e5d6075dc641 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_ac1756a59077bdcc3c51adbdb082ac74 = $(`<div id="html_ac1756a59077bdcc3c51adbdb082ac74" style="width: 100.0%; height: 100.0%;"><strong>Dra. Darién Aburto</strong><br>Calle Dr. Rafael Cuervo 25, Joyas de Mocambo, Boca del Río, Veracruz<br><em>Overlap alto</em><br><small>Ubicación aproximada</small></div>`)[0];
-                popup_f24ca28c221f10c5f18bf2650ccf3da3.setContent(html_ac1756a59077bdcc3c51adbdb082ac74);
+                var html_bcfff30f539c8bebd3961bcb843ff714 = $(`<div id="html_bcfff30f539c8bebd3961bcb843ff714" style="width: 100.0%; height: 100.0%;"><strong>Dra. Darién Aburto</strong><br>Calle Dr. Rafael Cuervo 25, Joyas de Mocambo, Boca del Río, Veracruz<br><em>Overlap alto</em><br><small>Ubicación aproximada</small></div>`)[0];
+                popup_85e4b58b5617da1a8085e5d6075dc641.setContent(html_bcfff30f539c8bebd3961bcb843ff714);
             
         
 
-        circle_marker_622b40407ea6e127a2896a8fa431d0f3.bindPopup(popup_f24ca28c221f10c5f18bf2650ccf3da3)
+        circle_marker_d5f41067e7c3b6f3360d639812c9b2b4.bindPopup(popup_85e4b58b5617da1a8085e5d6075dc641)
         ;
 
         
     
     
-            circle_marker_622b40407ea6e127a2896a8fa431d0f3.bindTooltip(
+            circle_marker_d5f41067e7c3b6f3360d639812c9b2b4.bindTooltip(
                 `<div>
                      Dra. Darién Aburto
                  </div>`,
@@ -167,30 +167,30 @@
             );
         
     
-            var circle_marker_bba8c38799972b88aeadfabbd8819edb = L.circleMarker(
+            var circle_marker_5bae9415045b870c27b082b922de60c9 = L.circleMarker(
                 [19.1502514, -96.1130141],
                 {"bubblingMouseEvents": true, "color": "#D73027", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#D73027", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
-            ).addTo(map_bd03e039cfa43870a49dad20b38027c6);
+            ).addTo(map_986da019e892e020376514683f9f2472);
         
     
-        var popup_34d6500d8823bcae1034b8b1e1559399 = L.popup({
+        var popup_0e0ac082b3a980e140e79ae5a904f552 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_56755080ad0f7caf34f1282ee89cdb6f = $(`<div id="html_56755080ad0f7caf34f1282ee89cdb6f" style="width: 100.0%; height: 100.0%;"><strong>Doctor Morfin</strong><br>11 Saturno, Jardines de Mocambo, Boca del Río, Veracruz<br><em>Overlap alto</em></div>`)[0];
-                popup_34d6500d8823bcae1034b8b1e1559399.setContent(html_56755080ad0f7caf34f1282ee89cdb6f);
+                var html_7a996a38111caca879afd91eca3f0483 = $(`<div id="html_7a996a38111caca879afd91eca3f0483" style="width: 100.0%; height: 100.0%;"><strong>Doctor Morfin</strong><br>11 Saturno, Jardines de Mocambo, Boca del Río, Veracruz<br><em>Overlap alto</em></div>`)[0];
+                popup_0e0ac082b3a980e140e79ae5a904f552.setContent(html_7a996a38111caca879afd91eca3f0483);
             
         
 
-        circle_marker_bba8c38799972b88aeadfabbd8819edb.bindPopup(popup_34d6500d8823bcae1034b8b1e1559399)
+        circle_marker_5bae9415045b870c27b082b922de60c9.bindPopup(popup_0e0ac082b3a980e140e79ae5a904f552)
         ;
 
         
     
     
-            circle_marker_bba8c38799972b88aeadfabbd8819edb.bindTooltip(
+            circle_marker_5bae9415045b870c27b082b922de60c9.bindTooltip(
                 `<div>
                      Doctor Morfin
                  </div>`,
@@ -200,30 +200,30 @@
             );
         
     
-            var circle_marker_9374d86dc1171521a89cf3eabf2e7a47 = L.circleMarker(
+            var circle_marker_1a0738d7b009fbc66911e092523de807 = L.circleMarker(
                 [19.1647292, -96.1170083],
                 {"bubblingMouseEvents": true, "color": "#D73027", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#D73027", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
-            ).addTo(map_bd03e039cfa43870a49dad20b38027c6);
+            ).addTo(map_986da019e892e020376514683f9f2472);
         
     
-        var popup_4ffa88768b9ade213c2838dca7664186 = L.popup({
+        var popup_a4c1031c37448d82db12d000282989ab = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_7c9cd647c91e00953f09565a0aeadec8 = $(`<div id="html_7c9cd647c91e00953f09565a0aeadec8" style="width: 100.0%; height: 100.0%;"><strong>Medical ProBeauty</strong><br>Escuela Médico Militar 13 Local 2, Costa Verde, Boca del Río, Veracruz<br><em>Overlap alto</em><br><small>Ubicación aproximada</small></div>`)[0];
-                popup_4ffa88768b9ade213c2838dca7664186.setContent(html_7c9cd647c91e00953f09565a0aeadec8);
+                var html_e11891e42dad3440d527cdd7fb7d08f8 = $(`<div id="html_e11891e42dad3440d527cdd7fb7d08f8" style="width: 100.0%; height: 100.0%;"><strong>Medical ProBeauty</strong><br>Escuela Médico Militar 13 Local 2, Costa Verde, Boca del Río, Veracruz<br><em>Overlap alto</em><br><small>Ubicación aproximada</small></div>`)[0];
+                popup_a4c1031c37448d82db12d000282989ab.setContent(html_e11891e42dad3440d527cdd7fb7d08f8);
             
         
 
-        circle_marker_9374d86dc1171521a89cf3eabf2e7a47.bindPopup(popup_4ffa88768b9ade213c2838dca7664186)
+        circle_marker_1a0738d7b009fbc66911e092523de807.bindPopup(popup_a4c1031c37448d82db12d000282989ab)
         ;
 
         
     
     
-            circle_marker_9374d86dc1171521a89cf3eabf2e7a47.bindTooltip(
+            circle_marker_1a0738d7b009fbc66911e092523de807.bindTooltip(
                 `<div>
                      Medical ProBeauty
                  </div>`,
@@ -233,30 +233,30 @@
             );
         
     
-            var circle_marker_49cedfbc36e8ba08e3d37315e1679765 = L.circleMarker(
+            var circle_marker_754cdf1989512dc92520134a963707b5 = L.circleMarker(
                 [19.1645757, -96.1187876],
                 {"bubblingMouseEvents": true, "color": "#F28E2B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F28E2B", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
-            ).addTo(map_bd03e039cfa43870a49dad20b38027c6);
+            ).addTo(map_986da019e892e020376514683f9f2472);
         
     
-        var popup_5b21e9ba056c68da340fcf0b72e7960b = L.popup({
+        var popup_b9c71363fdac8b0148e3fb1627f9c6df = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_1aa78c7663deec3f1ef4460727667f5a = $(`<div id="html_1aa78c7663deec3f1ef4460727667f5a" style="width: 100.0%; height: 100.0%;"><strong>Odonto Spa Medic</strong><br>Paseo Jardín 394, Fracc. Virginia, Boca del Río, Veracruz<br><em>Overlap medio</em><br><small>Ubicación aproximada</small></div>`)[0];
-                popup_5b21e9ba056c68da340fcf0b72e7960b.setContent(html_1aa78c7663deec3f1ef4460727667f5a);
+                var html_976cd7af3a54499276a20f056ca47068 = $(`<div id="html_976cd7af3a54499276a20f056ca47068" style="width: 100.0%; height: 100.0%;"><strong>Odonto Spa Medic</strong><br>Paseo Jardín 394, Fracc. Virginia, Boca del Río, Veracruz<br><em>Overlap medio</em><br><small>Ubicación aproximada</small></div>`)[0];
+                popup_b9c71363fdac8b0148e3fb1627f9c6df.setContent(html_976cd7af3a54499276a20f056ca47068);
             
         
 
-        circle_marker_49cedfbc36e8ba08e3d37315e1679765.bindPopup(popup_5b21e9ba056c68da340fcf0b72e7960b)
+        circle_marker_754cdf1989512dc92520134a963707b5.bindPopup(popup_b9c71363fdac8b0148e3fb1627f9c6df)
         ;
 
         
     
     
-            circle_marker_49cedfbc36e8ba08e3d37315e1679765.bindTooltip(
+            circle_marker_754cdf1989512dc92520134a963707b5.bindTooltip(
                 `<div>
                      Odonto Spa Medic
                  </div>`,
@@ -266,30 +266,30 @@
             );
         
     
-            var circle_marker_9bbfff12778c356e4398a14a26678422 = L.circleMarker(
+            var circle_marker_37594e6f0febc5113eb90396ae02477f = L.circleMarker(
                 [19.158184, -96.1033702],
                 {"bubblingMouseEvents": true, "color": "#F28E2B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F28E2B", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
-            ).addTo(map_bd03e039cfa43870a49dad20b38027c6);
+            ).addTo(map_986da019e892e020376514683f9f2472);
         
     
-        var popup_54061055b884cdd87e8f74e0e27d6fa2 = L.popup({
+        var popup_767c61b81f3a3ad2980b0a897cf6cf1f = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_3055a0da4d963ac19a929a265f8c5ebe = $(`<div id="html_3055a0da4d963ac19a929a265f8c5ebe" style="width: 100.0%; height: 100.0%;"><strong>équilibré</strong><br>Calle Sierra 1890, Boca del Río, Veracruz<br><em>Overlap medio</em></div>`)[0];
-                popup_54061055b884cdd87e8f74e0e27d6fa2.setContent(html_3055a0da4d963ac19a929a265f8c5ebe);
+                var html_7c910e69e4690eddd8b2c940a1b30b91 = $(`<div id="html_7c910e69e4690eddd8b2c940a1b30b91" style="width: 100.0%; height: 100.0%;"><strong>équilibré</strong><br>Calle Sierra 1890, Boca del Río, Veracruz<br><em>Overlap medio</em></div>`)[0];
+                popup_767c61b81f3a3ad2980b0a897cf6cf1f.setContent(html_7c910e69e4690eddd8b2c940a1b30b91);
             
         
 
-        circle_marker_9bbfff12778c356e4398a14a26678422.bindPopup(popup_54061055b884cdd87e8f74e0e27d6fa2)
+        circle_marker_37594e6f0febc5113eb90396ae02477f.bindPopup(popup_767c61b81f3a3ad2980b0a897cf6cf1f)
         ;
 
         
     
     
-            circle_marker_9bbfff12778c356e4398a14a26678422.bindTooltip(
+            circle_marker_37594e6f0febc5113eb90396ae02477f.bindTooltip(
                 `<div>
                      équilibré
                  </div>`,
@@ -299,30 +299,30 @@
             );
         
     
-            var circle_marker_ed0d903e06b6453aae6fe2f773d97a6e = L.circleMarker(
+            var circle_marker_d59b1b93da6cd3642d6e4c6132339de1 = L.circleMarker(
                 [19.1575631, -96.1115044],
                 {"bubblingMouseEvents": true, "color": "#F28E2B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F28E2B", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
-            ).addTo(map_bd03e039cfa43870a49dad20b38027c6);
+            ).addTo(map_986da019e892e020376514683f9f2472);
         
     
-        var popup_fcc9396540097f59846b3ca8a371cdea = L.popup({
+        var popup_bccc84aeb4d87d4fbed6132aa2838d35 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_578ff3ad7a16bd8984a9b696d92a3bf9 = $(`<div id="html_578ff3ad7a16bd8984a9b696d92a3bf9" style="width: 100.0%; height: 100.0%;"><strong>Dr. Fragoso</strong><br>Calle Vivero 193, Boca del Río, Veracruz<br><em>Overlap medio</em></div>`)[0];
-                popup_fcc9396540097f59846b3ca8a371cdea.setContent(html_578ff3ad7a16bd8984a9b696d92a3bf9);
+                var html_9d46f4af111a5c98209085ec1af47018 = $(`<div id="html_9d46f4af111a5c98209085ec1af47018" style="width: 100.0%; height: 100.0%;"><strong>Dr. Fragoso</strong><br>Calle Vivero 193, Boca del Río, Veracruz<br><em>Overlap medio</em></div>`)[0];
+                popup_bccc84aeb4d87d4fbed6132aa2838d35.setContent(html_9d46f4af111a5c98209085ec1af47018);
             
         
 
-        circle_marker_ed0d903e06b6453aae6fe2f773d97a6e.bindPopup(popup_fcc9396540097f59846b3ca8a371cdea)
+        circle_marker_d59b1b93da6cd3642d6e4c6132339de1.bindPopup(popup_bccc84aeb4d87d4fbed6132aa2838d35)
         ;
 
         
     
     
-            circle_marker_ed0d903e06b6453aae6fe2f773d97a6e.bindTooltip(
+            circle_marker_d59b1b93da6cd3642d6e4c6132339de1.bindTooltip(
                 `<div>
                      Dr. Fragoso
                  </div>`,
@@ -332,30 +332,30 @@
             );
         
     
-            var circle_marker_aa618c60d674c7d93f5e71861e093c3d = L.circleMarker(
+            var circle_marker_f99c2dfd95394213c674f7b9851bb258 = L.circleMarker(
                 [19.1583203, -96.1012678],
                 {"bubblingMouseEvents": true, "color": "#F28E2B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F28E2B", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
-            ).addTo(map_bd03e039cfa43870a49dad20b38027c6);
+            ).addTo(map_986da019e892e020376514683f9f2472);
         
     
-        var popup_951068f6e571d1f7cf3829b635ac9786 = L.popup({
+        var popup_892c305a5c51e482017262962c63a617 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_daa9101c01c8c12755ce614e88315425 = $(`<div id="html_daa9101c01c8c12755ce614e88315425" style="width: 100.0%; height: 100.0%;"><strong>Elle Clinic</strong><br>Tortuga 270, Costa de Oro, Boca del Río, Veracruz<br><em>Overlap medio</em></div>`)[0];
-                popup_951068f6e571d1f7cf3829b635ac9786.setContent(html_daa9101c01c8c12755ce614e88315425);
+                var html_cdc141863ff15be98d2555b55c8914ae = $(`<div id="html_cdc141863ff15be98d2555b55c8914ae" style="width: 100.0%; height: 100.0%;"><strong>Elle Clinic</strong><br>Tortuga 270, Costa de Oro, Boca del Río, Veracruz<br><em>Overlap medio</em></div>`)[0];
+                popup_892c305a5c51e482017262962c63a617.setContent(html_cdc141863ff15be98d2555b55c8914ae);
             
         
 
-        circle_marker_aa618c60d674c7d93f5e71861e093c3d.bindPopup(popup_951068f6e571d1f7cf3829b635ac9786)
+        circle_marker_f99c2dfd95394213c674f7b9851bb258.bindPopup(popup_892c305a5c51e482017262962c63a617)
         ;
 
         
     
     
-            circle_marker_aa618c60d674c7d93f5e71861e093c3d.bindTooltip(
+            circle_marker_f99c2dfd95394213c674f7b9851bb258.bindTooltip(
                 `<div>
                      Elle Clinic
                  </div>`,
@@ -365,30 +365,30 @@
             );
         
     
-            var circle_marker_10075132aadc317333ef79253a1b95a7 = L.circleMarker(
+            var circle_marker_5dd900859e0f1776d32aa03ad29f7d5c = L.circleMarker(
                 [19.1565, -96.1075],
                 {"bubblingMouseEvents": true, "color": "#F28E2B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F28E2B", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
-            ).addTo(map_bd03e039cfa43870a49dad20b38027c6);
+            ).addTo(map_986da019e892e020376514683f9f2472);
         
     
-        var popup_30dcb24854e7a6100894409cd8301a14 = L.popup({
+        var popup_bb52bd1c09cf657483939aef8c794010 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_1a0de11be4834de4543fe2a7e795105c = $(`<div id="html_1a0de11be4834de4543fe2a7e795105c" style="width: 100.0%; height: 100.0%;"><strong>Medica Vissage</strong><br>Calle 13 #18, Fracc. Costa Verde, Boca del Río, Veracruz<br><em>Overlap medio</em><br><small>Ubicación aproximada</small></div>`)[0];
-                popup_30dcb24854e7a6100894409cd8301a14.setContent(html_1a0de11be4834de4543fe2a7e795105c);
+                var html_0229a0a7b1e0a64fe2e5f64864a3cda8 = $(`<div id="html_0229a0a7b1e0a64fe2e5f64864a3cda8" style="width: 100.0%; height: 100.0%;"><strong>Medica Vissage</strong><br>Calle 13 #18, Fracc. Costa Verde, Boca del Río, Veracruz<br><em>Overlap medio</em><br><small>Ubicación aproximada</small></div>`)[0];
+                popup_bb52bd1c09cf657483939aef8c794010.setContent(html_0229a0a7b1e0a64fe2e5f64864a3cda8);
             
         
 
-        circle_marker_10075132aadc317333ef79253a1b95a7.bindPopup(popup_30dcb24854e7a6100894409cd8301a14)
+        circle_marker_5dd900859e0f1776d32aa03ad29f7d5c.bindPopup(popup_bb52bd1c09cf657483939aef8c794010)
         ;
 
         
     
     
-            circle_marker_10075132aadc317333ef79253a1b95a7.bindTooltip(
+            circle_marker_5dd900859e0f1776d32aa03ad29f7d5c.bindTooltip(
                 `<div>
                      Medica Vissage
                  </div>`,
@@ -398,30 +398,30 @@
             );
         
     
-            var circle_marker_60e88bc3b838b927891b81d95ddb732f = L.circleMarker(
+            var circle_marker_cdf7eeecae4e859d4b04deaa7d7f1cc2 = L.circleMarker(
                 [19.1562141, -96.1110718],
                 {"bubblingMouseEvents": true, "color": "#777777", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#777777", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
-            ).addTo(map_bd03e039cfa43870a49dad20b38027c6);
+            ).addTo(map_986da019e892e020376514683f9f2472);
         
     
-        var popup_6e22521891f47922fb89e97c78358510 = L.popup({
+        var popup_4828ef9762c87a9d4536b88e91fe44b1 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_5a259e9b8dcdeac1b7b28bf7ab70003f = $(`<div id="html_5a259e9b8dcdeac1b7b28bf7ab70003f" style="width: 100.0%; height: 100.0%;"><strong>MiPiel Boca del Río</strong><br>Invernadero 7 esquina Saturno, Jardines del Virginia, Boca del Río, Veracruz<br><em>Overlap bajo</em><br><small>Ubicación aproximada</small></div>`)[0];
-                popup_6e22521891f47922fb89e97c78358510.setContent(html_5a259e9b8dcdeac1b7b28bf7ab70003f);
+                var html_13cb24628de65e4044bff1fca825ba50 = $(`<div id="html_13cb24628de65e4044bff1fca825ba50" style="width: 100.0%; height: 100.0%;"><strong>MiPiel Boca del Río</strong><br>Invernadero 7 esquina Saturno, Jardines del Virginia, Boca del Río, Veracruz<br><em>Overlap bajo</em><br><small>Ubicación aproximada</small></div>`)[0];
+                popup_4828ef9762c87a9d4536b88e91fe44b1.setContent(html_13cb24628de65e4044bff1fca825ba50);
             
         
 
-        circle_marker_60e88bc3b838b927891b81d95ddb732f.bindPopup(popup_6e22521891f47922fb89e97c78358510)
+        circle_marker_cdf7eeecae4e859d4b04deaa7d7f1cc2.bindPopup(popup_4828ef9762c87a9d4536b88e91fe44b1)
         ;
 
         
     
     
-            circle_marker_60e88bc3b838b927891b81d95ddb732f.bindTooltip(
+            circle_marker_cdf7eeecae4e859d4b04deaa7d7f1cc2.bindTooltip(
                 `<div>
                      MiPiel Boca del Río
                  </div>`,
@@ -431,30 +431,30 @@
             );
         
     
-            var circle_marker_1135f497947f6bf89ec0ff2aed8e89d5 = L.circleMarker(
+            var circle_marker_412dc8b15812d6fad8a1046c76a6f125 = L.circleMarker(
                 [19.1458351, -96.1262147],
                 {"bubblingMouseEvents": true, "color": "#F28E2B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F28E2B", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
-            ).addTo(map_bd03e039cfa43870a49dad20b38027c6);
+            ).addTo(map_986da019e892e020376514683f9f2472);
         
     
-        var popup_ed1cbd6a9c84e4b9bb6edcbe16cac31d = L.popup({
+        var popup_339b8ece911614c188b2250eaf5e6a19 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_93ef4b8468918dfd46e5404005dff4e3 = $(`<div id="html_93ef4b8468918dfd46e5404005dff4e3" style="width: 100.0%; height: 100.0%;"><strong>Dra. Xally Salgado</strong><br>Calle Antonio M. Carlon, Boca del Río, Veracruz<br><em>Overlap medio</em></div>`)[0];
-                popup_ed1cbd6a9c84e4b9bb6edcbe16cac31d.setContent(html_93ef4b8468918dfd46e5404005dff4e3);
+                var html_cd0d076673d5d55fc4066b2da841d57a = $(`<div id="html_cd0d076673d5d55fc4066b2da841d57a" style="width: 100.0%; height: 100.0%;"><strong>Dra. Xally Salgado</strong><br>Calle Antonio M. Carlon, Boca del Río, Veracruz<br><em>Overlap medio</em></div>`)[0];
+                popup_339b8ece911614c188b2250eaf5e6a19.setContent(html_cd0d076673d5d55fc4066b2da841d57a);
             
         
 
-        circle_marker_1135f497947f6bf89ec0ff2aed8e89d5.bindPopup(popup_ed1cbd6a9c84e4b9bb6edcbe16cac31d)
+        circle_marker_412dc8b15812d6fad8a1046c76a6f125.bindPopup(popup_339b8ece911614c188b2250eaf5e6a19)
         ;
 
         
     
     
-            circle_marker_1135f497947f6bf89ec0ff2aed8e89d5.bindTooltip(
+            circle_marker_412dc8b15812d6fad8a1046c76a6f125.bindTooltip(
                 `<div>
                      Dra. Xally Salgado
                  </div>`,
@@ -464,30 +464,30 @@
             );
         
     
-            var circle_marker_f50667430b0c9fcb6a7f5e0c7d8c023a = L.circleMarker(
+            var circle_marker_27a71596ebc8167d578d137d50e21eb8 = L.circleMarker(
                 [19.1619395, -96.1297577],
                 {"bubblingMouseEvents": true, "color": "#F28E2B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F28E2B", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
-            ).addTo(map_bd03e039cfa43870a49dad20b38027c6);
+            ).addTo(map_986da019e892e020376514683f9f2472);
         
     
-        var popup_2995b5dd3d6c19021657b15523b29b10 = L.popup({
+        var popup_41ded3f9ada22a35ef9147d2d77ac61a = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_9d8343ce358013b71cd5326659e84eda = $(`<div id="html_9d8343ce358013b71cd5326659e84eda" style="width: 100.0%; height: 100.0%;"><strong>Dra. Gándara</strong><br>Av. Juan Pablo II 390, Boca del Río, Veracruz<br><em>Overlap medio</em></div>`)[0];
-                popup_2995b5dd3d6c19021657b15523b29b10.setContent(html_9d8343ce358013b71cd5326659e84eda);
+                var html_4863057df039b6d579c61ba6f49c91c4 = $(`<div id="html_4863057df039b6d579c61ba6f49c91c4" style="width: 100.0%; height: 100.0%;"><strong>Dra. Gándara</strong><br>Av. Juan Pablo II 390, Boca del Río, Veracruz<br><em>Overlap medio</em></div>`)[0];
+                popup_41ded3f9ada22a35ef9147d2d77ac61a.setContent(html_4863057df039b6d579c61ba6f49c91c4);
             
         
 
-        circle_marker_f50667430b0c9fcb6a7f5e0c7d8c023a.bindPopup(popup_2995b5dd3d6c19021657b15523b29b10)
+        circle_marker_27a71596ebc8167d578d137d50e21eb8.bindPopup(popup_41ded3f9ada22a35ef9147d2d77ac61a)
         ;
 
         
     
     
-            circle_marker_f50667430b0c9fcb6a7f5e0c7d8c023a.bindTooltip(
+            circle_marker_27a71596ebc8167d578d137d50e21eb8.bindTooltip(
                 `<div>
                      Dra. Gándara
                  </div>`,
@@ -497,30 +497,30 @@
             );
         
     
-            var circle_marker_c0d1afaacfddbb05ccd65eeb01ee6203 = L.circleMarker(
+            var circle_marker_0f983883702db92df72f17da5a572e90 = L.circleMarker(
                 [19.1544952, -96.0998521],
                 {"bubblingMouseEvents": true, "color": "#777777", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#777777", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
-            ).addTo(map_bd03e039cfa43870a49dad20b38027c6);
+            ).addTo(map_986da019e892e020376514683f9f2472);
         
     
-        var popup_6e391a68538d2ed7b8036d2edfee99ba = L.popup({
+        var popup_1986122470145ad1a3fe9d71a077f01c = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_4ca640990e05768d9630c130e2fe85d8 = $(`<div id="html_4ca640990e05768d9630c130e2fe85d8" style="width: 100.0%; height: 100.0%;"><strong>Dr. Malo Villalobos</strong><br>Av. Costa de Oro 648, Boca del Río, Veracruz<br><em>Overlap bajo</em></div>`)[0];
-                popup_6e391a68538d2ed7b8036d2edfee99ba.setContent(html_4ca640990e05768d9630c130e2fe85d8);
+                var html_f6549d37efeeff379f989f256b7cb59d = $(`<div id="html_f6549d37efeeff379f989f256b7cb59d" style="width: 100.0%; height: 100.0%;"><strong>Dr. Malo Villalobos</strong><br>Av. Costa de Oro 648, Boca del Río, Veracruz<br><em>Overlap bajo</em></div>`)[0];
+                popup_1986122470145ad1a3fe9d71a077f01c.setContent(html_f6549d37efeeff379f989f256b7cb59d);
             
         
 
-        circle_marker_c0d1afaacfddbb05ccd65eeb01ee6203.bindPopup(popup_6e391a68538d2ed7b8036d2edfee99ba)
+        circle_marker_0f983883702db92df72f17da5a572e90.bindPopup(popup_1986122470145ad1a3fe9d71a077f01c)
         ;
 
         
     
     
-            circle_marker_c0d1afaacfddbb05ccd65eeb01ee6203.bindTooltip(
+            circle_marker_0f983883702db92df72f17da5a572e90.bindTooltip(
                 `<div>
                      Dr. Malo Villalobos
                  </div>`,
@@ -530,30 +530,30 @@
             );
         
     
-            var circle_marker_13d576b154e823f4cd6b81bff97598af = L.circleMarker(
+            var circle_marker_f0c04be8d932cbdd8e37391b4e0b780d = L.circleMarker(
                 [19.1605389, -96.1188566],
                 {"bubblingMouseEvents": true, "color": "#F28E2B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F28E2B", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
-            ).addTo(map_bd03e039cfa43870a49dad20b38027c6);
+            ).addTo(map_986da019e892e020376514683f9f2472);
         
     
-        var popup_ab86f85a744dbfd2a20561ac80335f0d = L.popup({
+        var popup_191244c34a1db7417cdc20561d3c12f0 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_1b1915d22b8298dde2e45a9a36b67bd1 = $(`<div id="html_1b1915d22b8298dde2e45a9a36b67bd1" style="width: 100.0%; height: 100.0%;"><strong>Dra. Adriana Herrera / MediMac</strong><br>MediMac Urban Center, Boca del Río, Veracruz<br><em>Overlap medio</em><br><small>Ubicación aproximada</small></div>`)[0];
-                popup_ab86f85a744dbfd2a20561ac80335f0d.setContent(html_1b1915d22b8298dde2e45a9a36b67bd1);
+                var html_83552f76257cdbc82e50087575e671d9 = $(`<div id="html_83552f76257cdbc82e50087575e671d9" style="width: 100.0%; height: 100.0%;"><strong>Dra. Adriana Herrera / MediMac</strong><br>MediMac Urban Center, Boca del Río, Veracruz<br><em>Overlap medio</em><br><small>Ubicación aproximada</small></div>`)[0];
+                popup_191244c34a1db7417cdc20561d3c12f0.setContent(html_83552f76257cdbc82e50087575e671d9);
             
         
 
-        circle_marker_13d576b154e823f4cd6b81bff97598af.bindPopup(popup_ab86f85a744dbfd2a20561ac80335f0d)
+        circle_marker_f0c04be8d932cbdd8e37391b4e0b780d.bindPopup(popup_191244c34a1db7417cdc20561d3c12f0)
         ;
 
         
     
     
-            circle_marker_13d576b154e823f4cd6b81bff97598af.bindTooltip(
+            circle_marker_f0c04be8d932cbdd8e37391b4e0b780d.bindTooltip(
                 `<div>
                      Dra. Adriana Herrera / MediMac
                  </div>`,
